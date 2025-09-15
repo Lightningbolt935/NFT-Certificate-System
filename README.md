@@ -1,5 +1,7 @@
-#NFT CERTIFICATE SYSTEM
+# NFT CERTIFICATE SYSTEM
+
 A blockchain-based certificate verification system using NFTs (Non-Fungible Tokens) built on Ethereum. This system allows authorities to issue tamper-proof digital certificates and enables instant verification of certificate authenticity.
+
 # Features
 
 Issue Certificates: Authority can mint certificate NFTs with unique identifiers
@@ -9,7 +11,7 @@ User Dashboard: View all certificates owned by a wallet address
 Certificate Details: Complete information including recipient, course, and issue date
 Revocation System: Authority can revoke certificates if needed
 
-#Tech Stack
+# Tech Stack
 
 Smart Contract: Solidity ^0.8.19
 Blockchain: Ethereum (Sepolia/Goerli Testnet)
@@ -18,7 +20,7 @@ Frontend: React.js with ethers.js
 Wallet Integration: MetaMask
 Standards: ERC-721 NFT Standard with OpenZeppelin
 
-#Installation & Setup
+# Installation & Setup
 Prerequisites
 
 Node.js v16+ and npm
@@ -96,7 +98,7 @@ Smart Contract Deployment: Contract deployed on testnet
  Immutability Proof: Show that certificates cannot be modified once issued
  Frontend Integration: Working web interface for all operations
 
-#Security Features
+# Security Features
 
 Access Control: Only contract owner can issue certificates
 Unique IDs: Prevents duplicate certificate IDs
@@ -150,7 +152,7 @@ Connect wallet to see your certificates
 View all owned certificates with full details
 Share certificate ID for others to verify
 
- Troubleshooting
+ # Troubleshooting
 Common Issues
 
 "Contract not deployed": Update CONTRACT_ADDRESS in App.js
@@ -158,18 +160,7 @@ Common Issues
 "Transaction failed": Ensure you have enough test ETH for gas
 "Network mismatch": Switch MetaMask to the correct testnet
 
-Getting Test ETH
+# Getting Test ETH
 
 Sepolia: https://sepoliafaucet.com/
 Goerli: https://goerlifaucet.com/
-
- Contributing
-
-Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-
- License
-This project is licensed under the MIT License - see the LICENSE file for details.
